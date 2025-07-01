@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Apple Webkit Shit-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon.png">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+    <img class="screentime-bg" src="screentime.png" alt="background image"/>
+    <button class="ok-btn" aria-label="OK"></button>
+    <button class="ignore-btn" aria-label="Ignore Limit"></button>
+    <img class="password-screen" src="passwordscreen.png" alt="Password Screen" />
+    <div class="keypad" style="display:none;">
+        <div class="dots-row">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <button class="key-btn" data-key="1" aria-label="1"></button>
+        <button class="key-btn" data-key="2" aria-label="2"></button>
+        <button class="key-btn" data-key="3" aria-label="3"></button>
+        <button class="key-btn" data-key="4" aria-label="4"></button>
+        <button class="key-btn" data-key="5" aria-label="5"></button>
+        <button class="key-btn" data-key="6" aria-label="6"></button>
+        <button class="key-btn" data-key="7" aria-label="7"></button>
+        <button class="key-btn" data-key="8" aria-label="8"></button>
+        <button class="key-btn" data-key="9" aria-label="9"></button>
+        <button class="key-btn zero" data-key="0" aria-label="0"></button>
+        <button class="key-btn del" data-key="del" aria-label="Delete"></button>
+    </div>
+    <img class="hourglass-gif paused" src="hourglass.png" alt="Hourglass Animation" />
+    <img class="instagram-bg" src="instagram.png" alt="Instagram Background" />
+    <div id="actionmenu1">
+        <img src="actionmenu1.png" alt="Action Menu 1" draggable="false" />
+        <button class="actionmenu-btn continue" aria-label="Continue"></button>
+        <button class="actionmenu-btn skip" aria-label="Skip"></button>
+        <button class="actionmenu-btn cancel" aria-label="Cancel"></button>
+    </div>
+    <div id="actionmenu2">
+        <img src="actionmenu2.png" alt="Action Menu 2" draggable="false" />
+        <button class="actionmenu-btn continue" aria-label="Continue"></button>
+        <button class="actionmenu-btn cancel" aria-label="Cancel"></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
